@@ -1,0 +1,117 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgb(230, 233, 255);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+
+b{
+    color: rgb(54, 54, 175);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(54, 54, 175);
+}
+
+.texto-login{
+    font-weight: 700;
+}
+
+.login{
+    /* border: 1px solid rgb(128, 128, 128); */
+    border-radius: 20px;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.login-esquerda{
+    background-color: rgb(100, 100, 191);
+    border-radius: 0 20px 20px 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.imagem-login{
+    width: 200px;
+}
+
+.login-direita{
+    border-radius: 10px 0 0 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+.caixa{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.imagem{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(207, 207, 207);
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+
+.input{
+    border: none;
+    background-color: rgb(207, 207, 207);
+    position: relative;
+	font-size: 10px;
+	height: 20px;
+    width: 200px;
+	padding: 10px;
+    border-radius: 0 5px 5px 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn{
+    width: 200px;
+    height: 30px;
+    background-color: rgb(100, 100, 191);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(77, 77, 145);
+}
+
+.texto-informacoes{
+    font-family: "Poppins", sans-serif;
+    width: 200px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 500;
+    margin: 10px;
+}

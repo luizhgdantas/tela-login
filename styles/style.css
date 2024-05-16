@@ -25,10 +25,6 @@ a{
     color: rgb(54, 54, 175);
 }
 
-.texto-login{
-    font-weight: 700;
-}
-
 .login{
     /* border: 1px solid rgb(128, 128, 128); */
     border-radius: 20px;
@@ -107,7 +103,7 @@ a{
     background-color: rgb(77, 77, 145);
 }
 
-.texto-cadastro{
+.texto-informacoes{
     font-family: "Poppins", sans-serif;
     width: 200px;
     font-size: 13px;
